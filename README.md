@@ -2,6 +2,3 @@
 Meu primeiro repositório no GitHub
 
 Nome: Cauan Figueiredo Braga
-
-teste
-tr
