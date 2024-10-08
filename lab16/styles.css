@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e0e0e0;
+    margin: 0;
+}
+
+.calculadora {
+    background-color: #555;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);
+    max-width: 360px;
+    width: 100%;
+}
+
+.tela {
+    background-color: #222;
+    color: #fff;
+    font-size: 2.5em;
+    padding: 20px;
+    text-align: right;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: inset 0px 0px 12px rgba(0, 0, 0, 0.3);
+}
+
+.botoes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.btn {
+    background-color: #666;
+    color: #fff;
+    font-size: 1.8em;
+    padding: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.1s;
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover {
+    background-color: #777;
+}
+
+.btn:active {
+    background-color: #444;
+    transform: translateY(4px);
+}
+
+.operador {
+    background-color: #e74c3c;
+    color: #fff;
+}
+
+.operador:hover {
+    background-color: #c0392b;
+}
+
+.btn.resetar {
+    background-color: #f1c40f;
+}
+
+.btn.resetar:hover {
+    background-color: #f39c12;
+}
+
+.btn.igual {
+    background-color: #27ae60;
+}
+
+.btn.igual:hover {
+    background-color: #2ecc71;
+}
+
